@@ -15,7 +15,7 @@ let victimFive = document.querySelector('[data-victim-five]')
 
 async function callWithAsync() {
     try {
-        const response = await fetch('../data/data.json');
+        const response = await fetch('./data/data.json');
         names = await response.json();
         
         // Do something with the data
